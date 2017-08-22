@@ -1,0 +1,29 @@
+{
+  "name": "egg-router",
+  "version": "1.0.0",
+  "description": "egg plugin, auto router",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudbeer/egg-router.git"
+  },
+  "eggPlugin": {
+    "name": "autorouter"
+  },
+  "keywords": [
+    "egg",
+    "router"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudbeer/egg-router/issues"
+  },
+  "homepage": "https://github.com/cloudbeer/egg-router#readme"
+}
