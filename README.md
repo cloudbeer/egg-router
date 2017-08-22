@@ -58,15 +58,15 @@ module.exports = {
 
 Rules:
 
-* `helloWorld  => GET: /path/yourFilename/hello-world`
+* helloWorld  => GET: /path/yourFilename/hello-world
 
-* `$helloWorld  => POST: /path/yourFilename/hello-world`
+* $helloWorld  => POST: /path/yourFilename/hello-world
  
-* `$$helloWorld  => PUT: /path/yourFilename/hello-world`
+* $$helloWorld  => PUT: /path/yourFilename/hello-world
 
-* `_helloWorld  => DELETE: /path/yourFilename/hello-world`
+* _helloWorld  => DELETE: /path/yourFilename/hello-world
 
-* `__helloWorld  => PATCH: /path/yourFilename/hello-world`
+* __helloWorld  => PATCH: /path/yourFilename/hello-world
 
 Uppercase char will be transfered to minus and lowercase.
 
@@ -90,15 +90,15 @@ module.exports = {
 
 Rules list:
 
-* `""  => GET: /path/your-filename`
+* ""  => GET: /path/your-filename
 
-* `$  => POST: /path/your-filename`
+* $  => POST: /path/your-filename
  
-* `$$  => PUT: /path/your-filename`
+* $$  => PUT: /path/your-filename
 
-* `_  => DELETE: /path/your-filename`
+* _  => DELETE: /path/your-filename
 
-* `__  => PATCH: /path/your-filename`
+* __  => PATCH: /path/your-filename
 
 
 ### Multi-verb
